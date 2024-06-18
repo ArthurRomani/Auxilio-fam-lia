@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Famílias em Extrema Pobreza</title>
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <div class="photo">Foto</div>
+                <div class="username">Nome do usuário</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/home.html">Sair</a></li>
+              </ul>
+        </header>
+        <main>
+            <div class="menu">
+                <div class="menu-item"> <p>Cadastro de Famílias</p></div>
+                <div class="menu-item"> <a href="/consulta.html"><p> Consultas</p> </a></div>
+                <div class="menu-item"> <p>Perfil</p></div>
+                <div class="menu-item"> <p>Configurações</p></div>
+            </div>
+            <div class="content">
+                <h1>Cadastro de Famílias em Extrema Pobreza</h1>
+                <div class="form">
+                <form id="family-form">
+                    <label for="family-name">Nome da Família:</label>
+                    <input type="text" id="family-name" name="family-name" required>
+                    <button type="submit">Cadastrar nome da Família</button>
+                </form>
+                <form id="delete-family-form">
+                    <label for="delete-family-name">Nome da Família a Excluir:</label>
+                    <input type="text" id="delete-family-name" name="delete-family-name" required>
+                    <button type="submit">Excluir Família</button>
+                </form>
+                <form id="consult-family-form">
+                    <label for="consult-family-name">Adicionar membro da Família:</label>
+                    <input type="text" id="consult-family-name" name="consult-family-name" required>
+                    <button type="submit">Adicionar membro</button>
+                </form>
+                <form id="delete-member-form">
+                    <label for="consult-family-name">Nome do membro da Família a excluir:</label>
+                    <input type="text" id="consult-family-name" name="consult-family-name" required>
+                    <button type="submit">Excluir membro</button>
+                </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <section id="footer">
+        <footer>
+          <div class="footer-container">
+            <div class="footer-logo">
+              <a href="#">Auxilio Familia</a>
+            </div>
+            <div class="footer-links">
+              <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="/login.html">Entrar</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+              </ul>
+            </div>
+            <div class="footer-contact">
+              <p>Contact Us: info@auxiliofamilia.com</p>
+              <p>Phone: (123) 456-7890</p>
+            </div>
+          </div>
+        </footer>
+      </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
